@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Goodpaster Construction Services - Building Excellence, Delivering Trust. Expert craftsmanship with on-time delivery and customer-focused service.">
+    <meta name="keywords" content="construction services, craftsmanship, building, renovation, contractor">
+    <meta name="author" content="Goodpaster Construction Services">
+    <title>Goodpaster Construction Services | Building Excellence, Delivering Trust</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #1e40af 0%, #0c4a6e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(30, 64, 175, 0.1) 0%, rgba(12, 74, 110, 0.1) 100%);
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+        }
+        
+        .cta-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&h=600&fit=crop') center/cover;
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+        
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header/Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-hammer text-white text-lg"></i>
+                    </div>
+                    <span class="text-xl font-bold text-gray-900 hidden sm:inline">Goodpaster</span>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Testimonials</a>
+                    <a href="#faq" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">FAQ</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">About</a>
+                </div>
+
+                <!-- CTA Button (Desktop) -->
+                <div class="hidden md:block">
+                    <a href="https://www.test.com" class="btn-primary bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 shadow-md hover:shadow-lg">Get Started</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden mobile-menu-button p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-gray-900 text-xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden pb-4 border-t border-gray-200">
+                <a href="#features" class="block py-2 px-4 text-gray-700 hover:bg-gray-100 rounded transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block py-2 px-4 text-gray-700 hover:bg-gray-100 rounded transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block py-2 px-4 text-gray-700 hover:bg-gray-100 rounded transition-colors duration-300">Testimonials</a>
+                <a href="#faq" class="block py-2 px-4 text-gray-700 hover:bg-gray-100 rounded transition-colors duration-300">FAQ</a>
+                <a href="#about" class="block py-2 px-4 text-gray-700 hover:bg-gray-100 rounded transition-colors duration-300">About</a>
+                <a href="https://www.test.com" class="block mt-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 text-center">Get Started</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-24 md:py-32 lg:py-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                    Goodpaster Construction Services
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed font-light">
+                    Building Excellence, Delivering Trust – Your Vision, Our Craft
+                </p>
+                <p class="text-lg text-gray-600 mb-12 leading-relaxed">
+                    With decades of combined expertise, we transform your construction dreams into reality. From residential renovations to commercial projects, we deliver exceptional quality with unwavering commitment to your satisfaction.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://www.test.com" class="btn-primary bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl inline-block">
+                        Start Your Project
+                    </a>
+                    <a href="#contact" class="btn-primary bg-white hover:bg-gray-50 text-blue-600 px-8 py-3 rounded-lg font-semibold text-lg transition-all duration-300 border-2 border-blue-600 inline-block">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 md:py-32 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Our Core Features</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">What sets Goodpaster Construction apart from the competition</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1: Experienced Craftsmanship -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-tools text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Experienced Craftsmanship</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Our team brings decades of combined experience in construction, renovation, and building projects. Every member is highly skilled, certified, and dedicated to delivering work that exceeds expectations.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Certified professionals</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Advanced techniques</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Quality materials</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: On-Time Delivery -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-clock text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">On-Time Delivery</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        We understand that time is money. Our proven project management systems ensure that every project is completed on schedule without compromising on quality. Your timeline is our commitment.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Precise scheduling</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Regular updates</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Deadline guarantee</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Customer-Focused Service -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-handshake text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Customer-Focused Service</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Your satisfaction is our top priority. We maintain open communication throughout every phase of your project, listen to your concerns, and adapt our approach to meet your unique needs and vision.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>24/7 support</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Transparent pricing</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Custom solutions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Why Choose Goodpaster?</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">The tangible benefits of working with our trusted construction team</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Benefit 1 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-600 text-white">
+                            <i class="fas fa-award text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Expert Craftsmanship</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Our craftsmen are among the best in the industry. With rigorous training, continuous professional development, and a commitment to excellence, we ensure every detail of your project reflects superior workmanship and attention to quality.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white">
+                            <i class="fas fa-calendar-check text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">On-Time Completion</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            We pride ourselves on delivering projects exactly when promised. Our advanced scheduling systems, experienced project managers, and efficient teams work in harmony to ensure your project stays on track from start to finish.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-600 text-white">
+                            <i class="fas fa-shield-alt text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Trusted Partnership</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Building lasting relationships is fundamental to our business. We've earned the trust of hundreds of satisfied clients through consistent delivery, honest communication, and unwavering commitment to their vision and success.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-orange-600 text-white">
+                            <i class="fas fa-star text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Proven Track Record</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            With years of successful projects across residential and commercial sectors, our portfolio speaks for itself. We've consistently delivered outstanding results that have earned us industry recognition and loyal repeat clients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 md:py-32 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Real experiences from satisfied customers who trusted us with their projects</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        "Goodpaster Construction transformed our entire home renovation. The team was professional, punctual, and incredibly attentive to detail. They completed the project two weeks ahead of schedule without cutting any corners. We couldn't be happier with the results and would recommend them to anyone looking for quality craftsmanship."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            MJ
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Michael Johnson</p>
+                            <p class="text-gray-600 text-sm">Homeowner, Denver, CO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        "As a property manager overseeing multiple commercial spaces, I've worked with many contractors. Goodpaster stands out for their reliability and communication. They handled our office renovation flawlessly, coordinating with tenants and minimizing disruptions. Their attention to detail and professional approach earned them repeat business from us."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            SR
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Sarah Rodriguez</p>
+                            <p class="text-gray-600 text-sm">Property Manager, Austin, TX</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        "We hired Goodpaster for a complete kitchen remodel and were impressed from day one. Their team was organized, respectful of our home, and incredibly skilled. The quality of work is exceptional, and they took time to explain everything. It's rare to find contractors who truly care about customer satisfaction like they do."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            DB
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">David Bennett</p>
+                            <p class="text-gray-600 text-sm">Business Owner, Portland, OR</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        "Goodpaster Construction rebuilt our entire basement, and the transformation is incredible. The team was thorough in their planning, transparent about costs, and delivered everything exactly as promised. Their craftsmanship is evident in every aspect of the work. Highly recommend for any construction project."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-orange-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            EM
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Emily Martinez</p>
+                            <p class="text-gray-600 text-sm">Homeowner, Seattle, WA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-8">About Goodpaster Construction</h2>
+                    
+                    <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                        Founded in 1995, Goodpaster Construction Services has grown from a small local contractor to one of the region's most trusted construction firms. Our journey began with a simple vision: to deliver exceptional construction services with unwavering integrity and uncompromising quality. Over nearly three decades, we've built our reputation one satisfied client at a time, completing hundreds of residential and commercial projects that have transformed homes and businesses across multiple states. Our success is built on the foundation of skilled craftspeople, innovative solutions, and a genuine commitment to exceeding expectations.
+                    </p>
+
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        Today, we operate with the same core values that guided us from day one: integrity in every interaction, excellence in every project, and respect for our clients' vision and investment. We believe that construction is more than just building structures—it's about creating spaces where people live, work, and thrive. Our team of certified professionals brings decades of combined expertise, continuous learning, and a passion for craftsmanship. We're committed to sustainable practices, innovative techniques, and maintaining the highest industry standards. When you choose Goodpaster Construction, you're partnering with a company that values your trust and is dedicated to delivering results that stand the test of time.
+                    </p>
+                </div>
+
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500&h=600&fit=crop" alt="Goodpaster Construction Team" class="rounded-xl shadow-lg w-full h-auto">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent rounded-xl"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 md:py-32 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-600">Find answers to common questions about our construction services</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-xl font-bold text-gray-900 text-left">How long does a typical construction project take?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-600 leading-relaxed">
+                            Project timelines vary significantly depending on the scope, complexity, and size of your construction project. A simple kitchen renovation might take 4-8 weeks, while a full home renovation could take 3-6 months. Commercial projects vary widely based on specifications. During our initial consultation, we provide a detailed timeline estimate after thoroughly assessing your project requirements. We pride ourselves on meeting or beating our estimated completion dates while maintaining the highest quality standards throughout the process.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-xl font-bold text-gray-900 text-left">What areas do you service?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-600 leading-relaxed">
+                            Goodpaster Construction Services operates throughout the Colorado Front Range, including Denver, Boulder, Fort Collins, and surrounding areas. We also have active projects in select regions of Wyoming, Utah, and New Mexico. For projects outside our primary service areas, we're often willing to discuss special arrangements depending on project scope and timeline. Contact us with your location and project details, and we'll let you know if we can help or recommend trusted partners in your area.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-xl font-bold text-gray-900 text-left">Do you provide warranties on your work?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-600 leading-relaxed">
+                            Yes, absolutely. We stand behind our work with comprehensive warranties on all labor and materials. Typically, we provide a one-year warranty on workmanship and honor manufacturer warranties on all materials used. For major structural work, extended warranties may be available. We're committed to ensuring your satisfaction long after project completion. If any issues arise within the warranty period, we address them promptly at no additional cost. Our warranty commitment reflects our confidence in the quality of our craftsmanship.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-xl font-bold text-gray-900 text-left">How do you handle project budgets and cost overruns?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-600 leading-relaxed">
+                            We believe in transparent pricing and detailed contracts that clearly outline all costs. Before work begins, we provide a comprehensive estimate that includes labor, materials, and contingencies. If unforeseen issues arise during construction, we immediately notify you and discuss options before proceeding. We don't make changes without your approval. Our project managers work diligently to keep projects on budget while maintaining quality. We've built our reputation on delivering excellent value and maintaining cost discipline throughout the construction process.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-xl font-bold text-gray-900 text-left">How can I get started with a project?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-600 leading-relaxed">
+                            Getting started is easy! Simply contact us via phone, email, or our website to schedule a free initial consultation. During this meeting, we'll discuss your vision, assess your project, answer questions, and provide a preliminary estimate. There's no obligation, and we'll give you honest feedback about your project and what we can deliver. If you decide to move forward, we'll prepare a detailed proposal and contract. Once signed, we'll schedule your project and keep you informed every step of the way. Contact john@goodpasterconstruction.com or call us today to begin your project.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-24 md:py-32 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-50"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Ready to Transform Your Space?</h2>
+            <p class="text-xl text-gray-100 mb-12 max-w-2xl mx-auto leading-relaxed">
+                Let Goodpaster Construction bring your vision to life. Contact us today for a free consultation and discover how we can deliver excellence for your next project.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://www.test.com" class="btn-primary bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl inline-block">
+                    Start Your Project Today
+                </a>
+                <a href="mailto:john@goodpasterconstruction.com" class="btn-primary bg-white hover:bg-gray-100 text-blue-600 px-8 py-3 rounded-lg font-semibold text-lg transition-all duration-300 inline-block">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Get in Touch</h2>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-8">
+                    <div class="flex items-center gap-3">
+                        <i class="fas fa-envelope text-blue-600 text-2xl"></i>
+                        <a href="mailto:john@goodpasterconstruction.com" class="text-lg text-gray-600 hover:text-blue-600 transition-colors duration-300">
+                            john@goodpasterconstruction.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-hammer text-white"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">Goodpaster</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">
+                        Building excellence and delivering trust through expert craftsmanship and customer-focused service.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Resources</h4>
+                    <ul class="space-y-3">
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors duration-300">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col sm:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-center sm:text-left mb-4 sm:mb-0">
+                        &copy; 2025 Goodpaster Construction Services. All rights reserved.
+                    </p>
+                    <div class="flex space-x-6 text-sm">
+                        <a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy</a>
+                        <a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms</a>
+                        <a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
